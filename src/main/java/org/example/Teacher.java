@@ -6,7 +6,9 @@ import lombok.*;
 public record Teacher(
         int id,
         String name,
-        String subject) {
+        @With String subject) {
+
+
 }
 
 

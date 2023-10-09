@@ -32,7 +32,10 @@ public class Main {
                 .subject("Family values and resurrections")
                 .build();
         System.out.println(teacher1);
-        
+
+        Teacher teacher2 = teacher1.withSubject("Science");
+        System.out.println(teacher2);
+
         List<Student> students1 = Arrays.asList(student1, student2, student3);
 
         Course course1 = Course.builder()
